@@ -1,25 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+ ===== ROR BASIC USER API =====
+ 
+ 1. Api rest with three en poitns 
+ - GET users (https://fast-harbor-93488.herokuapp.com/api/v1/users)
+ - Get user (https://fast-harbor-93488.herokuapp.com/api/v1/users/id)
+ - Post user (https://fast-harbor-93488.herokuapp.com/api/v1/users) method POST
 
-Things you may want to cover:
+2. The middleware works throw CORS gem
+3. validations are on the User model
+4. En point return JSON data only with attributes :id, :full_name, :birthday, :image_url, :gender
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# basic_user
