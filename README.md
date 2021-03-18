@@ -9,6 +9,6 @@
 
 2. The middleware works throw CORS gem
 3. validations are on the User model
-4. En point return JSON data only with attributes :id, :full_name, :birthday, :image_url, :gender
-5. Datebase used for development is SqliLite and production is Postrgrestql (to be deployed on heroku)
+4. End points return JSON data, only with attributes :id, :full_name, :birthday, :image_url, :gender
+5. Datebase used for development is SqlLite and production is Postrgrestql (to be deployed on heroku)
 
