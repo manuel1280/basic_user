@@ -1,0 +1,24 @@
+# == Schema Information
+#
+# Table name: users
+#
+#  id         :integer          not null, primary key
+#  birthday   :date
+#  full_name  :string
+#  gender     :integer
+#  image_url  :string
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
+one:
+  full_name: MyString
+  birthday: 2021-03-17
+  gender: 1
+  image_url: MyString
+
+two:
+  full_name: MyString
+  birthday: 2021-03-17
+  gender: 1
+  image_url: MyString
