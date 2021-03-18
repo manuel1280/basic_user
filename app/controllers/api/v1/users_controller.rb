@@ -15,7 +15,7 @@ class Api::V1::UsersController < ApplicationController
 
   # POST /users
   def create
-    @user = User.new(user_params)
+    @user = User.new(user_params.merge(gender: params[:user][:gender].to_i))
 
     if @user.save
       render json: @user, status: :created

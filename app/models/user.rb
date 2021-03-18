@@ -11,4 +11,5 @@
 #  updated_at :datetime         not null
 #
 class User < ApplicationRecord
+  enum gender: { male: 0, female: 1 }
 end
