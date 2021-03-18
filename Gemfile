@@ -7,6 +7,7 @@ ruby '2.6.3'
 gem 'active_model_serializers'
 gem 'annotate'
 gem 'faker'
+gem 'better_errors'
 
 #backedn API
 gem 'rack-cors'
